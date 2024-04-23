@@ -1,0 +1,20 @@
+﻿<Window x:Class="Evidence_obchod.Okna.Edit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Evidence_obchod.Okna"
+        mc:Ignorable="d"
+        Title="Edit" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="BTN_ulozit" Content="Uložit" HorizontalAlignment="Left" Margin="501,183,0,0" VerticalAlignment="Top" Height="34" Width="97" Click="BTN_ulozit_Click"/>
+        <Button x:Name="BTN_zahodit" Content="Zahodit" HorizontalAlignment="Left" Margin="501,255,0,0" VerticalAlignment="Top" Height="39" Width="97" Click="BTN_zahodit_Click"/>
+        <TextBox x:Name="TxtBx_nazev" HorizontalAlignment="Left" Margin="151,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" Height="39"/>
+        <TextBox x:Name="TxtBx_pocet" HorizontalAlignment="Left" Margin="151,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" Height="37"/>
+        <TextBox x:Name="TxtBx_cena" HorizontalAlignment="Left" Margin="151,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" Height="35"/>
+        <Label Content="Název:" HorizontalAlignment="Left" Height="39" Margin="10,79,0,0" VerticalAlignment="Top" Width="136"/>
+        <Label Content="Počet:" HorizontalAlignment="Left" Height="39" Margin="10,125,0,0" VerticalAlignment="Top" Width="136"/>
+        <Label Content="Cena:" HorizontalAlignment="Left" Height="39" Margin="10,161,0,0" VerticalAlignment="Top" Width="136"/>
+
+    </Grid>
+</Window>

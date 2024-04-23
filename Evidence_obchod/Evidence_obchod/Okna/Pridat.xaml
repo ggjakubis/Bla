@@ -1,0 +1,24 @@
+﻿<Window x:Class="Evidence_obchod.Okna.Pridat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Evidence_obchod.Okna"
+        mc:Ignorable="d"
+        Title="Pridat" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TxtBX_nazev"  HorizontalAlignment="Left" Margin="160,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" Height="33"/>
+
+        <TextBox x:Name="TxtBx_pocet" HorizontalAlignment="Left" Margin="160,145,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" Height="36"/>
+
+        <TextBox x:Name="TxtBx_cena" HorizontalAlignment="Left" Margin="160,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="178" Height="38"/>
+
+        <Label Content="Zadejte název produktu:" HorizontalAlignment="Left" Margin="0,86,0,0" VerticalAlignment="Top" Height="33" Width="155"/>
+        <Label Content="Zadejte počet položek:" HorizontalAlignment="Left" Margin="0,147,0,0" VerticalAlignment="Top" Height="33" Width="155"/>
+        <Label Content="Zadejte cenu produktu:" HorizontalAlignment="Left" VerticalAlignment="Center" Height="33" Width="155"/>
+
+        <Button x:Name="BTN_zavrit" Content="Zavřít" HorizontalAlignment="Left" Margin="507,303,0,0" VerticalAlignment="Top" Height="35" Width="88" Click="BTN_zavrit_Click"/>
+        
+        <Button x:Name="BTN_pridat" Content="Přidat" HorizontalAlignment="Left" Margin="500,124,0,0" VerticalAlignment="Top" Height="40" Width="102" Click="BTN_pridat_Click"/>
+    </Grid>
+</Window>
